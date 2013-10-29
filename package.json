@@ -1,0 +1,17 @@
+{
+  "name": "webgl-sandbox",
+  "version": "0.0.1",
+  "description": "WebGL minimal implementation ported to node.js (from Erik Möller's WebGL 101 video)",
+  "dependencies": {
+    "domready": "0.2.x",
+    "raf": "0.0.x"
+  },
+  "devDependencies": {
+    "browserify": "~2.33.0"
+  },
+  "scripts": {
+    "start": "browserify src/index.js > public/main.js && node start.js"
+  },
+  "author": "joates",
+  "license": "MIT"
+}
