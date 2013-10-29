@@ -1,4 +1,8 @@
+Flat shaded:
 ![Screenshot](https://raw.github.com/joates/webgl-sandbox/master/screenshot.png)
+
+Diffuse and Emissive textured:
+![Screenshot](https://raw.github.com/joates/webgl-sandbox/master/screenshot2.png)
 
 ####The WebGL 101 samples are available live at
 * http://emoller.github.com/WebGL101/01-minimal.html

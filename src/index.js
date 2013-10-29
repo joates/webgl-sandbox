@@ -33,14 +33,14 @@
 			camera.d[14] = 3 + Math.sin(rotZ)
 			vecMat.viewMatrix().makeInverseRigidBody(camera)
 			mesh.draw()
-			rotZ += 0.01
+			rotZ += 0.002
     }
 
     raf(canvas).on('data', function(dt) {
       if (meshLoaded) drawFrame(dt)
     })
 
-    mesh.load('/models/cube.json', function() { meshLoaded = true })
+    mesh.load('/models/mech-cube.json', function() { meshLoaded = true })
 
   })}, 0)
 
