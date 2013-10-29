@@ -1,7 +1,11 @@
+This is a very minimal implementation of WebGL ported to run with node.js/npm modules. The code is only about 26k without the textures. It's completely inspired by the techniques demonstarted by Erik Möller's fantastic 2.5 hour video on YouTube [WebGL 101](http://www.youtube.com/watch?v=me3BviH3nZc), the vast majority of code is all Erik's i have just added a few node.js things to get it working with the ```npm install webgl-sandbox``` command, i have included Erik's license in the repo, some very useful resources also on Erik's blog if you are interested in getting started using WebGL in the browser.
+
 Flat shaded:
+
 ![Screenshot](https://raw.github.com/joates/webgl-sandbox/master/screenshot.png)
 
 Diffuse and Emissive textured:
+
 ![Screenshot](https://raw.github.com/joates/webgl-sandbox/master/screenshot2.png)
 
 ####The WebGL 101 samples are available live at
