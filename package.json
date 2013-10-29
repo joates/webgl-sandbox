@@ -12,6 +12,13 @@
   "scripts": {
     "start": "browserify src/index.js > public/main.js && node start.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joates/webgl-sandbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joates/webgl-sandbox/issues"
+  },
   "author": "joates",
   "license": "MIT"
 }
