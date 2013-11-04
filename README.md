@@ -13,6 +13,7 @@ There are 2 Blender model exporters included in [public/scripts](https://github.
 to run them you need to to use 2 commands in the Blender ```Python Console```:
 * exec(open('/path/to/script/export_webgl101.py').read())
 * exportWebGL101('ModelName', '/path/to/exported/model/files/modelname.json')
+
 _change the model name in the 2nd command to select a model from the Blender scene_
 
 
