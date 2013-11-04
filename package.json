@@ -1,7 +1,7 @@
 {
   "name": "webgl-sandbox",
-  "version": "0.0.1",
-  "description": "WebGL minimal implementation ported to node.js (from Erik Möller's WebGL 101 video)",
+  "version": "0.0.2",
+  "description": "WebGL minimal implementation in node.js (from Erik Möller's WebGL 101 video)",
   "dependencies": {
     "domready": "0.2.x",
     "raf": "0.0.x"
