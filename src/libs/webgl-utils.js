@@ -58,7 +58,7 @@
         }
       },
 
-      loadFile: function(file, callback, noCache, isJson) {
+      loadFile: function(file, callback, isCached, isJson) {
         var request = new XMLHttpRequest()
         request.onreadystatechange = function() {
           if (request.readyState == 1) {
@@ -77,7 +77,7 @@
           }
         }
         var url = file
-        if (noCache) {
+        if (!isCached) {
           url += '?' + (new Date()).getTime()
         }
         request.open('GET', url, true)
@@ -100,10 +100,11 @@
             callback(program)
           }
         }
-        // cache enabled..
+        // cache enabled (for production)
         //this.loadFile(vs, vshaderLoaded, true)
         //this.loadFile(fs, fshaderLoaded, true)
-        // cache disabled..
+        
+        // cache disabled (for development)
         this.loadFile(vs, vshaderLoaded, false)
         this.loadFile(fs, fshaderLoaded, false)
         return program
