@@ -77,9 +77,12 @@
           }
         }
         var url = file
-        if (!isCached) {
-          url += '?' + (new Date()).getTime()
-        }
+
+	// Note: intentionally bypass the caching mechanism
+        // if (!isCached) {
+        //   url += '?' + (new Date()).getTime()
+        // }
+
         request.open('GET', url, true)
       },
 

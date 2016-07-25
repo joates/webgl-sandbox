@@ -8,6 +8,19 @@ Diffuse and Emissive textured:
 
 This is a very minimal implementation of WebGL ported to run with node.js/npm modules. The code is only about 26k without the textures. It's completely inspired by the techniques demonstrated by Erik Möller's fantastic 2.5 hour video on YouTube [WebGL 101](http://www.youtube.com/watch?v=me3BviH3nZc), the vast majority of code is all Erik's i have just added a few node.js things to make it easier to deploy with the command ```npm install webgl-sandbox```, ( _i have included Erik's original license in the repo_ ), also follow the links to additional resources if you are interested in getting started using WebGL in the browser.
 
+####Usage
+
+```
+$ git clone https://github.com/joates/webgl-sandbox.git
+$ cd webgl-sandbox
+$ npm install (_this will download the module dependencies_)
+$ npm start
+```
+
+Once the server is started, the demo application is located on your local system at [localhost:8000](http://localhost:8000/)
+
+####Importing models from Blender
+
 There are 2 Blender model exporters included in [public/scripts](https://github.com/joates/webgl-sandbox/tree/master/public/scripts)
 
 to run them you need to to use 2 commands in the Blender ```Python Console```:
